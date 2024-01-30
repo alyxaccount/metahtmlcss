@@ -1,0 +1,118 @@
+body {
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin: 3rem 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que os itens se movam para a próxima linha quando não houver espaço suficiente */
+    justify-content: space-between;
+    /* Distribui os itens uniformemente ao longo do eixo principal */
+    gap: 20px;
+    /* Adiciona espaçamento entre os itens na horizontal */
+    margin-top: 20px;
+}
+
+article {
+    flex: 1;
+    /* Faz com que os artigos ocupem o espaço disponível igualmente */
+}
+
+footer {
+    display: flex;
+    margin-top: 20px;
+}
+
+footer div {
+    flex: 1;
+}
+
+.banner,
+.card {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.banner1 {
+    background-image: url('assets/comida0.jpg');
+    background-size: cover; /* ou contain, dependendo do comportamento desejado */
+    background-position: center; /* ou outras posições conforme necessário */
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.card.card1 {
+    background-image: url('assets/comida2.jpg');
+    background-size: cover; /* ou contain, dependendo do comportamento desejado */
+    background-position: center; /* ou outras posições conforme necessário */
+    background-repeat: no-repeat;
+    height: 400px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.card.card2 {
+    background-image: url('assets/comida1.jpg');
+    background-size: cover; /* ou contain, dependendo do comportamento desejado */
+    background-position: center; /* ou outras posições conforme necessário */
+    background-repeat: no-repeat;
+    height: 400px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.card.card3 {
+    background-image: url('assets/comida3.jpg');
+    background-size: cover; /* ou contain, dependendo do comportamento desejado */
+    background-position: center; /* ou outras posições conforme necessário */
+    background-repeat: no-repeat;
+    height: 400px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.nav {
+    background-color: #495E57;
+}
+
+.nav ul li a {
+    color: #F4CE14;
+    font-size: 50px;
+        /* Substitua "your_color_code" pelo código de cor desejado */
+}
+
+/* Se quiser mudar a cor quando o mouse passa sobre o link */
+.nav ul li a:hover {
+    color: #ffffff
+        /* Substitua "your_hover_color_code" pelo código de cor desejado ao passar o mouse */
+}
